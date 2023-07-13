@@ -18,6 +18,8 @@ import com.example.Login.servicio.PersonaServicio;
 
 
 @RestController
+@CrossOrigin(origins = "*")
+@RequestMapping( path="api/personas")
 public class PersonaControlador {
 	
 			   @Autowired
