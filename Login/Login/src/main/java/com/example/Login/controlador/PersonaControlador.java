@@ -20,12 +20,12 @@ import com.example.Login.servicio.PersonaServicio;
 @RestController
 public class PersonaControlador {
 	
-				@Autowired
-				PersonaServicio personaServicio;
+			   @Autowired
+			   PersonaServicio personaServicio;
 				
 				
 			
-				@GetMapping
+			    @GetMapping
 			    @ResponseBody
 			    public ResponseEntity<List<Persona>>  BuscarTodos() {
 			    	
@@ -50,7 +50,7 @@ public class PersonaControlador {
 	
 	
 				
-				@PostMapping
+			@PostMapping
 		        @ResponseBody
 		        public ResponseEntity Guardar(@RequestBody Persona persona){
 		        	
@@ -75,15 +75,6 @@ public class PersonaControlador {
 
 		        }
 				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
+						
 	
 }
