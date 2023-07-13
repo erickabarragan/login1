@@ -58,7 +58,7 @@ public class UsuariosControlador {
 				
 
 				
-				 	@GetMapping("/{usuariosId}")
+				@GetMapping("/{usuariosId}")
 			        @ResponseBody
 			        public ResponseEntity <Optional<Usuarios>> BuscarPorId(@PathVariable ("usuariosId") int usuariosId){
 					        	try {
@@ -134,17 +134,6 @@ public class UsuariosControlador {
 			            
 			        }
 				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-	
 	
 	
 }
